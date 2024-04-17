@@ -1,0 +1,51 @@
+.crazy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 100vh;
+  background: linear-gradient(#ffca00, #24a0ed);
+}
+
+.crazy-container {
+  width: 15rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  background-color: white;
+  height: fit-content;
+}
+.crazy-img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+.crazy-title,
+.crazy-description {
+  margin: 0.5rem 5%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.crazy-btn {
+  text-align: center;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background-color: #24a0ed;
+  color: white;
+  text-decoration: none;
+  margin: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.crazy-btn:hover {
+  background: linear-gradient(#ffca00, #24a0ed);
+}
+
+@media (max-width: 37.5rem) {
+  .crazy {
+    display: grid;
+  }
+}

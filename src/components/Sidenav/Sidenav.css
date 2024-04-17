@@ -1,0 +1,85 @@
+:root {
+  --sidenav-color: #703ff8f2;
+  --sidenav-secondary-color: #0dd3bb;
+  --buttons-first: #7ddf64;
+  --buttons: #ff4500;
+  --buttons-last: #f0a80c;
+}
+
+.sidenav {
+  width: 12.5rem;
+  font-size: small;
+  background-color: var(--sidenav-color);
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.sidenav-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidenav-logo > img {
+  width: 60%;
+  margin: 10px 0;
+  border-radius: 2rem;
+}
+.sidenav-search {
+  margin: 0.5rem 0;
+}
+
+.search-result {
+  width: 75%;
+  margin-bottom: 10px;
+}
+.search-result div {
+  width: 100%;
+  padding: 10px 25px;
+  background-color: var(--buttons-first);
+}
+.sidenav-search > input {
+  padding: 8px 10px;
+  border: 1px solid var(--sidenav-secondary-color);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 1rem;
+  position: relative;
+  outline-width: 0;
+}
+
+.sidenav-search > i {
+  right: 30px;
+  position: relative;
+  color: var(--sidenav-secondary-color);
+}
+
+.sidenav hr {
+  margin: 1rem;
+  border: 0.1rem solid var(--sidenav-secondary-color);
+}
+.buttons-first {
+  color: var(--buttons-first);
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.buttons {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--buttons);
+}
+.buttons-last {
+  color: var(--buttons-last);
+  text-decoration: none;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.footer {
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}

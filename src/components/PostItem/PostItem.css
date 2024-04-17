@@ -1,0 +1,64 @@
+:root {
+  --color: #ff4500;
+  --post-color: black;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 1rem;
+}
+.post-left {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.like-button-item {
+  padding: 0.3rem;
+  outline: none;
+  font: inherit;
+  border-radius: 1rem;
+  background: linear-gradient(#f0a80c, #ff4500);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.post-left > i {
+  font-size: large;
+  color: var(--primary-color);
+  padding: 0.4rem;
+}
+
+.post > div {
+  margin-right: 20px;
+}
+.post-center > img {
+  height: 60px;
+  border-radius: 5px;
+}
+.post-right {
+  width: 85%;
+}
+.post a {
+  text-decoration: none;
+  color: var(--post-color);
+}
+.post-right > h3 a {
+  font-weight: 600;
+  font-size: medium;
+  color: var(--post-color);
+  padding: 5px 0;
+}
+.post-right > .post-info {
+  font-size: medium;
+  color: var(--color);
+}
+
+.post-info > * {
+  margin-bottom: 2px;
+  font-size: medium;
+}
+p.post-info {
+  margin-top: 4px;
+}
